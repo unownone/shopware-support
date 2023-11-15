@@ -2,8 +2,8 @@ version: "3"
 
 services:
   shop:
-    container_name: shop
-    image: dockware/{{FLAVOUR}}:{{VERSION}}
+    container_name: shopware5
+    image: dockware/${FLAVOUR}:${VERSION}
     ports:
       - "22:22" # ssh
       - "80:80" # apache2
